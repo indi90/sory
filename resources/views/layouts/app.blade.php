@@ -12,8 +12,8 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
             <div class="content-page">
-                <!-- Start content -->
                 <div class="content">
+                    <!-- Start content -->
                     <div class="container">
                         @yield('content')
                     </div>
@@ -36,13 +36,13 @@
         </script>
 
         <!-- jQuery  -->
-        <script src="{{ asset('js/detect.js') }}"></script>
         <script src="{{ asset('js/script.min.js') }}"></script>
+        <script src="{{ asset('js/detect.js') }}"></script>
         <script src="{{ asset('js/waves.js') }}"></script>
+
+        @stack('scripts')
 
         <script src="{{ asset('js/jquery.core.js') }}"></script>
         <script src="{{ asset('js/jquery.app.js') }}"></script>
-
-        @stack('scripts')
     </body>
 </html>
