@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
 @push('scripts')
-<script src="assets/plugins/peity/jquery.peity.min.js"></script>
-
-<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
-
-<script src="assets/pages/jquery.dashboard_3.js"></script>
+<script src="{{ asset('js/jquery.dashboard_3.js') }}"></script>
 @endpush
 
 @section('content')

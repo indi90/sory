@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="endro | jst">
 
-    <link rel="shortcut icon" href="assets/images/favicon_1.ico">
+    <link rel="shortcut icon" href="{{ asset('images/favicon_1.ico') }}">
 
     <title>SORY | System Inventory</title>
 
@@ -13,8 +13,8 @@
     <link href="{{ asset('css/template.min.css') }}" rel="stylesheet" type="text/css" />
 
     <script src="{{ asset('js/html5shiv.min.js') }}"></script>
-    <script src="{{ asset('js/respond..min.js') }}"></script>
-    <script src="{{ asset('js/modernizr.min.js') }}"></script>
+    <script src="{{ asset('js/respond.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 </head>
 <body>
@@ -98,20 +98,9 @@
 </script>
 
 <!-- jQuery  -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/detect.js"></script>
-<script src="assets/js/fastclick.js"></script>
-<script src="assets/js/jquery.slimscroll.js"></script>
-<script src="assets/js/jquery.blockUI.js"></script>
-<script src="assets/js/waves.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/jquery.nicescroll.js"></script>
-<script src="assets/js/jquery.scrollTo.min.js"></script>
-
-
-<script src="assets/js/jquery.core.js"></script>
-<script src="assets/js/jquery.app.js"></script>
+<script src="{{ asset('js/script.min.js') }}"></script>
+<script src="{{ asset('js/detect.js') }}"></script>
+<script src="{{ asset('js/waves.js') }}"></script>
 
 </body>
 </html>

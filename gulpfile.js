@@ -85,6 +85,12 @@ var javascripts = [
     CONFIG.BOWER_PATH + '/jquery.nicescroll/jquery.nicescroll.js',
     /* jquery scrollTo */
     CONFIG.BOWER_PATH + '/jquery.scrollTo/jquery.scrollTo.js',
+    /* jquery wow */
+    CONFIG.BOWER_PATH + '/wow/dist/wow.js',
+    /* Jquery Piety */
+    CONFIG.BOWER_PATH + '/peity/jquery.peity.min.js',
+    /* Jquery Sparkline */
+    CONFIG.NODE_PATH + '/sparkline/lib/sparkline.js',
     /* jquery ujs */
     CONFIG.NODE_PATH + '/jquery-ujs/src/rails.js',
     /* select 2 */

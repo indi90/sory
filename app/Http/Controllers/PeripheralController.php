@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Peripheral;
+use App\Models\TmpPeripheral;
+use App\Models\Type;
+use App\Models\Location;
 
 class PeripheralController extends Controller
 {

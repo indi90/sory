@@ -13,5 +13,5 @@
 @stack('styles')
 
 <script src="{{ asset('js/html5shiv.min.js') }}"></script>
-<script src="{{ asset('js/respond..min.js') }}"></script>
-<script src="{{ asset('js/modernizr.min.js') }}"></script>
+<script src="{{ asset('js/respond.min.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
